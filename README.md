@@ -190,8 +190,8 @@ public class PersonProcessor implements ItemProcessor<Person,Person> {
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd spring-batch-demo
+   git clone https://github.com/AgeOfUltra/spring-batch.git
+   cd spring-batch
    ```
 
 2. **Prepare your CSV file**
@@ -306,12 +306,6 @@ The application handles various batch job exceptions:
     </dependency>
 </dependencies>
 ```
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributing
 
 1. Fork the repository
 2. Create a feature branch
